@@ -32,7 +32,7 @@ About 2,000 waitlist members in three groups. Group sizes are not yet known. Ple
 | **Gift buyers** | Want to give tea to someone else. | A box that feels thoughtful and is simple to send. | "Will it arrive on time? Is it worth the price?" |
 | **Daily tea drinkers** | Drink tea every day. Know what they like. | New flavours, good quality, fair value. | "Is this different from what I already buy?" |
 
-All three are on the waitlist, so they already said yes to hearing from us. They are at the **consideration to decision** stage.
+All three are on the waitlist, so they already said yes to hearing from us. They are close to deciding. They know us, but have not yet said yes.
 
 ## 3. Key messages
 
@@ -42,7 +42,7 @@ All three are on the waitlist, so they already said yes to hearing from us. They
 1. **Warm.** Tea from East to West, hot and iced. There is something for every cup.
 2. **Calm.** No rush. Pause, pour, sip.
 3. **Honest.** We tell you what is in the box and what it costs. No tricks.
-4. **Fair.** One-month and three-month options, so you choose how long to try it.
+4. **Choice.** One-month and three-month options, so you choose how long to try it. (Owner to confirm the options.)
 
 **Message by group:**
 - **Beginners:** "You do not need to know anything. We will help you steep it."
@@ -83,21 +83,21 @@ These come from `brand/voice.md`.
 
 ## 6. Content calendar
 
-| Week | Date | Content piece | Group | Notes | Status |
-|---|---|---|---|---|---|
-| Prep | 30 Nov – 6 Dec | Confirm prices, offers, box contents, shipping terms | Owner | **Nothing is written with numbers until this is done** | To do |
-| Prep | By 4 Dec | Landing page ready, checkout tested | – | Must be live before email 1 | To do |
-| Prep | By 4 Dec | Segment the list, set up tracking links | – | | To do |
-| 1 | Mon 7 Dec | **Email 1: Welcome. The Steep Club is here.** | All, 3 versions | Main launch email | To do |
-| 1 | Thu 10 Dec | **Email 2: What is in the box** | All | Photos, contents, how it works | To do |
-| 2 | Mon 14 Dec | **Email 3: Gift a box** | Gift buyers lead; short version to others | Only mention delivery dates if confirmed | To do |
-| 2 | Thu 17 Dec | **Email 4: Your questions, answered** | All | Honest answers on price, cancelling, shipping | To do |
-| 3 | Mon 21 Dec | **Email 5: A cosy week to try something new** | Non-subscribers | Gentle nudge, no pressure | To do |
-| 3 | Thu 24 Dec | No send | – | Holiday | – |
-| 4 | Mon 28 Dec | **Email 6: Start the new year with a new cup** | Non-subscribers | Daily drinkers and beginners get different openings | To do |
-| 4 | Thu 31 Dec | **Email 7: A last note from us** | Non-clickers and non-subscribers | Short and kind. Only name a deadline if it is real | To do |
-| 4 | Sun 3 Jan | Wrap-up and first report | – | Compare with targets | To do |
-| – | On sign-up | **Welcome email** to new members | New subscribers | Triggered automatically | To do |
+| Week | Date | Content piece | Group | Purpose | Notes | Status |
+|---|---|---|---|---|---|---|
+| Prep | Mon 30 Nov – Sun 6 Dec | Confirm prices, offers, box contents, shipping terms | Owner | Get the facts we need before we write numbers | **Nothing is written with numbers until this is done** | To do |
+| Prep | By Fri 4 Dec | Landing page ready, checkout tested | – | A place for people to sign up | Must be live before email 1 | To do |
+| Prep | By Fri 4 Dec | Split the list into three groups, set up tracking links | – | Send the right email to the right person | | To do |
+| 1 | Mon 7 Dec | **Email 1: Welcome. The Steep Club is here.** | All, 3 versions | Tell them the box is open and show them how to join | Main launch email | To do |
+| 1 | Thu 10 Dec | **Email 2: What is in the box** | All | Show what they get, so they can decide | Photos, contents, how it works | To do |
+| 2 | Mon 14 Dec | **Email 3: Gift a box** | Gift buyers lead; short version to others | Help gift buyers see how to give a box | Only mention delivery dates if confirmed | To do |
+| 2 | Thu 17 Dec | **Email 4: Your questions, answered** | All | Answer worries about price, cancelling and shipping | Honest answers only | To do |
+| 3 | Mon 21 Dec | **Email 5: A cosy week to try something new** | Non-subscribers | Give a gentle nudge to join | No pressure | To do |
+| 3 | Thu 24 Dec | No send | – | Give people a quiet holiday | Holiday | – |
+| 4 | Mon 28 Dec | **Email 6: Start the new year with a new cup** | Non-subscribers | Invite them to start the year with a new tea | Daily drinkers and beginners get different openings | To do |
+| 4 | Thu 31 Dec | **Email 7: A short note from us** | Non-clickers and non-subscribers | Say thank you and leave the door open | Short and kind. Only name a deadline if it is real | To do |
+| 4 | Sun 3 Jan | Wrap-up and first report | – | See how we did against the targets | Compare with targets | To do |
+| – | Right after sign-up | **Welcome email** to new members | New subscribers | Thank them and say what happens next | Sent automatically when they join | To do |
 
 **Flexibility:** Keep one spare slot in week 3 or 4. Use it for a reply to a common question or a story from a new member.
 
@@ -114,11 +114,11 @@ These come from `brand/voice.md`.
 - Printable gift card or gift note for gift buyers.
 - Short thank-you reply for people who answer an email.
 
-**Timeline:** Draft emails 1 and 2 by 27 November. Draft the rest by 4 December. Owner review by 5 December.
+**Timeline:** Draft emails 1 and 2 by 27 November. Draft the rest by Wednesday 2 December. Owner review by Friday 4 December.
 
 ## 8. Success metrics
 
-**Primary KPI:** 300 new subscriptions by 3 January 2027.
+**Main number to hit:** 300 new subscriptions by 3 January 2027.
 
 **How it might get there.** These are working guesses, not facts. We have no past numbers yet. Please correct them once you have real data.
 
