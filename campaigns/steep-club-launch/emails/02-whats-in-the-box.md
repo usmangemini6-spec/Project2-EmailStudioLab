@@ -3,7 +3,7 @@ Preview: A look inside The Steep Club, and what it costs.
 
 Hello {{first_name}},
 
-On Monday, we told you The Steep Club is open. Today, we would like to show you what is inside.
+Last time, we told you The Steep Club is open. Today, we would like to show you what is inside.
 
 **Your first box**
 - [TEA 1]
@@ -24,7 +24,9 @@ On Monday, we told you The Steep Club is open. Today, we would like to show you 
 
 [OFFER]
 
-We want you to know what you are getting. If you have a question, reply to this email. We read every one.
+[RENEWAL: Say if the box comes again each month, or stops after the term.]
+
+We want you to know what you are getting. If you have a question, reply to this email. We are happy to help.
 
 [See The Steep Club](https://kettlebird.example/steep-club)
 

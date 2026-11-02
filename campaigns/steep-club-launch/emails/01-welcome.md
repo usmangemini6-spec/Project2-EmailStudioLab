@@ -7,11 +7,13 @@ You joined our waitlist. Thank you.
 
 The Steep Club is open.
 
-Each month, we send you a box of tea. It has [NUMBER OF TEAS] teas to try. Some are for hot cups. Some are for iced. Some are traditional. Some may be new to you.
+Each month, we send you a box of tea. It has [NUMBER OF TEAS] teas to try. [HOT AND ICED: Some are for hot cups. Some are for iced.] Some are traditional. Some may be new to you.
 
-New to tea? That is fine. [GUIDE: Every box has a short guide to steeping.]
+New to tea? That is fine. [GUIDE, delete if none: Every box has a short guide to steeping.]
 
 You choose how long to try it. One month is [PRICE ONE MONTH]. Three months is [PRICE THREE MONTHS]. [OFFER]
+
+[RENEWAL: Say if the box comes again each month, or stops after the term.]
 
 Have a look when you are ready.
 

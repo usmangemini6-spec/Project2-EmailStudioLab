@@ -5,17 +5,19 @@ Hello {{first_name}},
 
 Do you know someone who loves tea? Or someone who might?
 
-You can give them The Steep Club. A thoughtful gift, one box at a time.
+[IF GIFTS ARE CONFIRMED: You can give them The Steep Club. A thoughtful gift, one box at a time.]
 
-[GIFT OPTION: Say how a gift works. Who orders, who receives, and any gift note.]
+[GIFT OPTION: Say how a gift works. Who orders, who receives, and any gift note. If gifts are not offered, do not send this email.]
 
 A gift can be one month, for [PRICE ONE MONTH]. Or three months, for [PRICE THREE MONTHS]. [OFFER]
 
 [GIFT DELIVERY: Say plainly what we can and cannot promise about timing. No dates unless the owner confirms them.]
 
+Not shopping for a gift? A box is a treat to steep for yourself, too.
+
 If you have questions, reply to this email. We are happy to help.
 
-[Give The Steep Club](https://kettlebird.example/steep-club)
+[See The Steep Club](https://kettlebird.example/steep-club)
 
 Thank you for your time.
 

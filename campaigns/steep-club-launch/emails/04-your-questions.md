@@ -3,28 +3,28 @@ Preview: Plain answers about price, cancelling and shipping.
 
 Hello {{first_name}},
 
-You may have questions. Here are plain answers.
+You may have questions. Here are plain answers. Pour a cup, then read on.
 
 **What does it cost?**
 One month is [PRICE ONE MONTH]. Three months is [PRICE THREE MONTHS]. [OFFER]
 
 **What is in the box?**
-[NUMBER OF TEAS] teas each month. Some are for hot cups. Some are for iced. [INGREDIENTS: Say where members can see what is in each tea.]
+[NUMBER OF TEAS] teas each month. [HOT AND ICED: Some are for hot cups. Some are for iced.] [INGREDIENTS: Say where members can see what is in each tea.]
 
 **I am new to tea. Is this for me?**
-Yes. [GUIDE: Every box has a short guide to steeping.]
+Yes. [GUIDE, delete if none: Every box has a short guide to steeping.]
 
 **Can I cancel?**
-[CANCEL POLICY]
+[CANCEL POLICY: Say how to cancel or pause, and whether a box comes again each month or stops after the term.]
 
 **Where do you ship?**
 [SHIPPING AREAS]
 
 **Can I give a box as a gift?**
-[GIFT OPTION]
+[GIFT OPTION: Yes, if confirmed. Say how it works. If gifts are not offered, delete this question.]
 
 **Still not sure?**
-Reply to this email. A real person at Kettlebird Tea will read it.
+Reply to this email. We are happy to help.
 
 [See The Steep Club](https://kettlebird.example/steep-club)
 
