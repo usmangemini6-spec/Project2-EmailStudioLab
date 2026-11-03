@@ -1,0 +1,11 @@
+{
+  "findings": [
+    {
+      "file": "campaigns/steep-club-launch/emails/03-gift-a-box.md (and groups/*/emails/03-gift-a-box.md)",
+      "line": 8,
+      "severity": "low",
+      "problem": "No rule breaks found in any of the 16 emails. The only open issue is that every email still has unfilled placeholders: prices, offer, number of teas, renewal, cancel policy, shipping areas and gift details. Voice rules block unconfirmed prices, discounts and delivery dates, so these cannot go out until the owner confirms them. The gift email (03) only works if gifts are confirmed. Its own note says not to send it if gifts are not offered.",
+      "fix": "Get the owner to confirm prices, offer, renewal and cancel policy, shipping areas and whether gifts are offered. Then replace every [BRACKET] placeholder. If gifts are not offered, drop email 03 and the gift question in email 04."
+    }
+  ]
+}
