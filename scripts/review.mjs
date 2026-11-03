@@ -2,7 +2,7 @@
 // Runs Claude Code headless to review a campaign's emails.
 // Saves review/findings.json. Exits 1 if any finding is high severity.
 import { spawnSync } from "node:child_process";
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -14,8 +14,29 @@ if (!folder) {
 }
 
 const schema = JSON.stringify(JSON.parse(readFileSync(resolve(root, "review/findings.schema.json"), "utf8")));
-const prompt =
+let prompt =
   `Review every email in ${folder} against brand/voice.md and .claude/rules/emails.md. Report only real problems.`;
+
+// If the last review was for the same folder, tell Claude what it found then.
+const norm = (f) => resolve(root, f);
+const findingsPath = resolve(root, "review/findings.json");
+if (existsSync(findingsPath)) {
+  try {
+    const last = JSON.parse(readFileSync(findingsPath, "utf8"));
+    if (last.folder && norm(last.folder) === norm(folder) && Array.isArray(last.findings)) {
+      prompt +=
+        `
+
+Earlier findings:
+${JSON.stringify(last.findings, null, 2)}
+
+` +
+        "These are findings from the last review. Report only problems that are new or still not fixed. Don't repeat ones that have been fixed.";
+    }
+  } catch {
+    // Unreadable old file: review from scratch.
+  }
+}
 
 const result = spawnSync(
   "claude",
@@ -50,7 +71,7 @@ if (!output || !Array.isArray(output.findings)) {
 }
 
 mkdirSync(resolve(root, "review"), { recursive: true });
-writeFileSync(resolve(root, "review/findings.json"), JSON.stringify(output, null, 2) + "\n");
+writeFileSync(findingsPath, JSON.stringify({ folder, findings: output.findings }, null, 2) + "\n");
 
 const count = (s) => output.findings.filter((f) => f.severity === s).length;
 const high = count("high");

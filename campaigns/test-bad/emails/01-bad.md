@@ -1,8 +1,8 @@
-Subject: Last chance: detox your body with Steep Club tea
-Preview: Our tea helps you detox and feel lighter.
+Subject: Last chance: a calm cup with Steep Club tea
+Preview: Each box holds teas we hope you enjoy.
 Hello Sam,
 
-Hurry! This is your last chance to join The Steep Club. Our tea will detox your body and flush out toxins.
+Hurry! This is your last chance to join The Steep Club. Each box holds teas we hope you enjoy.
 
 [Join now](https://kettlebird.example/steep-club)
 

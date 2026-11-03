@@ -1,11 +1,47 @@
 {
+  "folder": "campaigns/test-bad",
   "findings": [
     {
-      "file": "campaigns/steep-club-launch/emails/03-gift-a-box.md (and groups/*/emails/03-gift-a-box.md)",
-      "line": 8,
-      "severity": "low",
-      "problem": "No rule breaks found in any of the 16 emails. The only open issue is that every email still has unfilled placeholders: prices, offer, number of teas, renewal, cancel policy, shipping areas and gift details. Voice rules block unconfirmed prices, discounts and delivery dates, so these cannot go out until the owner confirms them. The gift email (03) only works if gifts are confirmed. Its own note says not to send it if gifts are not offered.",
-      "fix": "Get the owner to confirm prices, offer, renewal and cancel policy, shipping areas and whether gifts are offered. Then replace every [BRACKET] placeholder. If gifts are not offered, drop email 03 and the gift question in email 04."
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 1,
+      "severity": "high",
+      "problem": "Subject still uses the banned pushy phrase \"Last chance\". (The health claim and the length problem are fixed; it is now 43 characters.)",
+      "fix": "Remove \"Last chance\". Example: \"Meet The Steep Club, our monthly tea box\"."
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 3,
+      "severity": "high",
+      "problem": "Greeting still uses a real name (\"Hello Sam,\") instead of {{first_name}}. There is also still no blank line between the Preview and the greeting.",
+      "fix": "Add a blank line after the Preview, then use \"Hello {{first_name}},\"."
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 5,
+      "severity": "high",
+      "problem": "Body still says \"Hurry!\" and \"last chance\", which voice.md bans. (The detox claim is fixed.)",
+      "fix": "Use calm wording. Example: \"The Steep Club brings a new tea to your door each month. Take your time and have a look.\""
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 9,
+      "severity": "high",
+      "problem": "A second main link (\"our shop\") is still there. The rules allow exactly one main link.",
+      "fix": "Delete line 9. Keep only the Steep Club button link."
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 11,
+      "severity": "high",
+      "problem": "Sign-off is still \"Thanks, Kettlebird\" instead of the exact required sign-off.",
+      "fix": "Replace with:\nThank you for your time.\n\nWarm sips,\nThe Kettlebird team"
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 12,
+      "severity": "high",
+      "problem": "The required two-line footer is still missing. The file ends after the sign-off.",
+      "fix": "End the file with:\nYou're getting this because you joined the Kettlebird Tea waitlist.\nKettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}"
     }
   ]
 }
